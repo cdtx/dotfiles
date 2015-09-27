@@ -11,7 +11,8 @@ filetype plugin indent on
 call pathogen#helptags()
 
 " Use the wildmenu
-set wildchar=<Tab> wildmenu wildmode=full
+set wildmenu 
+set wildmode=longest:full,full
 
 " search
 set ignorecase
