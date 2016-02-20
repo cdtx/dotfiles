@@ -1,4 +1,5 @@
 " Written with the help of : http://amix.dk/vim/vimrc.html:w
+set noswapfile
 set nocompatible
 set backspace=2
 
@@ -34,6 +35,9 @@ cabbr <expr> %% expand('%:p:h')
 
 filetype plugin indent on
 syntax enable
+
+" Associate file extentions and syntax
+autocmd BufNewFile,BufRead *.less   set syntax=css
 
 colorscheme molokai
 set background=dark 
