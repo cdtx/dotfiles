@@ -36,6 +36,8 @@ cabbr <expr> %% expand('%:p:h')
 
 filetype plugin indent on
 syntax enable
+noremap <F12> <Esc>:syntax sync fromstart<CR>
+inoremap <F12> <C-o>:syntax sync fromstart<CR>
 
 " Associate file extentions and syntax
 autocmd BufNewFile,BufRead *.less   set syntax=css
