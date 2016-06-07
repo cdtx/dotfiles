@@ -42,15 +42,12 @@ alias gs='git status'
 alias ga='git add'
 alias glog='git log'
 
-# Hard drive mounting
-alias mount.dd500="sudo mkdir /media/cdtx/dd500;sudo mount /dev/sdb1"
-alias umount.dd500="sudo umount /dev/sdb1;sudo rmdir /media/cdtx/dd500"
 # Freebox drive mounting
 alias mount.freebox="sudo mkdir /media/cdtx/freebox;sudo mount -t cifs //mafreebox.freebox.fr/Disque\ dur /media/cdtx/freebox -o password=,uid=1000,gid=1000,rw"
 alias umount.freebox="sudo umount /media/cdtx/freebox;sudo rmdir /media/cdtx/freebox"
 
-# PATH and others
-export PYTHONPATH=/home/cdtx/developpment/python:$PYTHONPATH
-
 alias note='python -m cdtx.mino.note'
 export MINO_DATABASE_PATH=/home/cdtx
+
+# Source the bashrc dedicated to this machine
+source ~/.bashrc_machine

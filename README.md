@@ -11,4 +11,5 @@ All my linux environment
 - Drive to this projects folder
 - Create links
   - `ln -s vim ~/.vim`
-  - `ln -s bash/.bashrc ~/.bashrc`
+  - `ln -s bash/bashrc_<xx> ~/.bashrc_machine`
+  - `ln -s bash/bashrc ~/.bashrc`

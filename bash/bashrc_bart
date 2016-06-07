@@ -1,0 +1,4 @@
+# Hard drive mounting
+alias mount.dd500="sudo mkdir /media/cdtx/dd500;sudo mount /dev/sdb1"
+alias umount.dd500="sudo umount /dev/sdb1;sudo rmdir /media/cdtx/dd500"
+
