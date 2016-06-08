@@ -10,6 +10,6 @@ All my linux environment
   - `git submodule update`
 - Drive to this projects folder
 - Create links
-  - `ln -s vim ~/.vim`
-  - `ln -s bash/bashrc_<xx> ~/.bashrc_machine`
-  - `ln -s bash/bashrc ~/.bashrc`
+  - `ln -s $(pwd)/vim ~/.vim`
+  - `ln -s $(pwd)/bash/bashrc_<xx> ~/.bashrc_machine`
+  - `ln -s $(pwd)/bash/bashrc ~/.bashrc`
