@@ -7,7 +7,7 @@ All my linux environment
 - Clone this repository whereever wanted
 - Clone the submodules
   - `git submodule init`
-  - `git submodule clone`
+  - `git submodule update`
 - Drive to this projects folder
 - Create links
   - `ln -s vim ~/.vim`
