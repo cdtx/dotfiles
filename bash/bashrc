@@ -13,9 +13,11 @@ alias c='cd ..;ls'
 alias cc='cd ../..;ls'
 alias ccc='cd ../../..;ls'
 
+alias ls="ls --color"
 alias l='ls'
 alias ll='ls -l'
 alias la='ls -la'
+eval $(dircolors -b ~/.ls_colors)
 
 alias v='gvim'
 alias va='gvim --servername SERVERA --remote'

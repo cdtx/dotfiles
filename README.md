@@ -13,3 +13,4 @@ All my linux environment
   - `ln -s vim ~/.vim`
   - `ln -s bash/bashrc_<xx> ~/.bashrc_machine`
   - `ln -s bash/bashrc ~/.bashrc`
+  - 'ln -s ls/.ls_colors ~/.ls_colors'
