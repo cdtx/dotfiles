@@ -7,10 +7,10 @@ All my linux environment
 - Clone this repository whereever wanted
 - Clone the submodules
   - `git submodule init`
-  - `git submodule clone`
+  - `git submodule update`
 - Drive to this projects folder
 - Create links
-  - `ln -s vim ~/.vim`
-  - `ln -s bash/bashrc_<xx> ~/.bashrc_machine`
-  - `ln -s bash/bashrc ~/.bashrc`
-  - 'ln -s ls/.ls_colors ~/.ls_colors'
+  - `ln -s $(pwd)/vim ~/.vim`
+  - `ln -s $(pwd)/bash/bashrc_<xx> ~/.bashrc_machine`
+  - `ln -s $(pwd)/bash/bashrc ~/.bashrc`
+  - 'ln -s $(pwd)/ls/.ls_colors ~/.ls_colors

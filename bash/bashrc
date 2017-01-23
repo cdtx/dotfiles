@@ -52,4 +52,7 @@ alias note='python -m cdtx.mino.note'
 export MINO_DATABASE_PATH=/home/cdtx
 
 # Source the bashrc dedicated to this machine
-source ~/.bashrc_machine
+if [ -e ~/.bashrc_machine ]
+then
+    source ~/.bashrc_machine
+fi
