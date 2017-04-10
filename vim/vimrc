@@ -45,3 +45,7 @@ autocmd BufNewFile,BufRead *.less   set syntax=css
 colorscheme molokai
 set background=dark 
 
+" Language specific 
+    " python
+    autocmd FileType python iabbrev <buffer> pdb import pdb; pdb.set_trace()
+
