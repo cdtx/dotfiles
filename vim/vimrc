@@ -41,6 +41,7 @@ inoremap <F12> <C-o>:syntax sync fromstart<CR>
 
 " Associate file extentions and syntax
 autocmd BufNewFile,BufRead *.less   set syntax=css
+au BufNewFile,BufRead SCons* set filetype=scons
 
 colorscheme molokai
 set background=dark 
