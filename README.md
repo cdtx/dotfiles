@@ -6,8 +6,9 @@ All my linux environment
 #How to install
 - Clone this repository whereever wanted
 - Clone the submodules
-  - `git submodule init`
-  - `git submodule update`
+  - `git submodule update --init --recursive`
+- Build YouCompleteMe
+  - Read the doc...
 - Drive to this projects folder
 - Create links
   - `ln -s $(pwd)/vim ~/.vim`

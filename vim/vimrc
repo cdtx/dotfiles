@@ -45,6 +45,12 @@ autocmd BufNewFile,BufRead *.less   set syntax=css
 colorscheme molokai
 set background=dark 
 
+" TagBar configuration
+nmap <F8> :TagbarToggle<CR>
+
+" CTRLP configuration
+let g:ctrlp_cmd = 'CtrlPBuffer'
+
 " Language specific 
     " python
     autocmd FileType python iabbrev <buffer> pdb import pdb; pdb.set_trace()
