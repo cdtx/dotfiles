@@ -12,6 +12,10 @@ All my linux environment
 - Drive to this projects folder
 - Create links
   - `ln -s $(pwd)/vim ~/.vim`
-  - `ln -s $(pwd)/bash/bashrc_<xx> ~/.bashrc_machine`
+  - `ln -s $(pwd)/aliases ~/.aliases`
+  - `ln -s $(pwd)/aliases_<xx> ~/.aliases_machine`
+  - `ln -s $(pwd)/zsh/zshrc ~/.zshrc`
+
+# Deprecated
   - `ln -s $(pwd)/bash/bashrc ~/.bashrc`
   - 'ln -s $(pwd)/ls/.ls_colors ~/.ls_colors
