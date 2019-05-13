@@ -9,3 +9,5 @@ LIGHT_GRAY="\[\033[0;37m\]"
 PS1="$LIGHT_GREEN\u@\h $BLUE\w$YELLOW\$(parse_git_branch) $BLUE\$ $LIGHT_GRAY"
 
 source ~/.aliases
+
+export PATH=/usr/local/p/versions/python:$PATH
