@@ -3,7 +3,16 @@ All my linux environment
 - bash init files
 - vim configuration
 
-#How to install
+# Build vim
+- `cd /tmp`
+- `git clone https://github.com/vim/vim.git`
+- `cd /tmp/vim/src`
+- `sudo apt-get build-dep vim`
+- `./configure --enable-python3interp=yes --enable-gui=auto`
+- `make`
+- `sudo make install`
+
+# How to install
 - Clone this repository whereever wanted
 - Clone the submodules
   - `git submodule update --init --recursive`
