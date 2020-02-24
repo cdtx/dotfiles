@@ -24,6 +24,8 @@ All my linux environment
   - `ln -s $(pwd)/aliases ~/.aliases`
   - `ln -s $(pwd)/aliases_<xx> ~/.aliases_machine`
   - `ln -s $(pwd)/zsh/zshrc ~/.zshrc`
+  - `ln -s $(pwd)/tmux/.tmux ~/.tmux`
+  - `ln -s $(pwd)/tmux/.tmux.conf ~/.tmux.conf`
 
 # Deprecated
   - `ln -s $(pwd)/bash/bashrc ~/.bashrc`
