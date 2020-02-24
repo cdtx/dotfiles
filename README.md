@@ -8,7 +8,7 @@ All my linux environment
 - `git clone https://github.com/vim/vim.git`
 - `cd /tmp/vim/src`
 - `sudo apt-get build-dep vim`
-- `./configure --enable-python3interp=yes --enable-gui=auto`
+- `./configure --enable-python3interp=yes --enable-gui=gtk3`
 - `make`
 - `sudo make install`
 
