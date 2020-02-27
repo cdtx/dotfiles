@@ -2,5 +2,5 @@
 	path = vim/bundle/Vundle.vim
 	url = https://github.com/VundleVim/Vundle.vim.git
 [submodule "/home/cdtx/dotfiles/tmux/.tmux/plugins/tpm"]
-	path = /home/cdtx/dotfiles/tmux/.tmux/plugins/tpm
+	path = tmux/.tmux/plugins/tpm
 	url = https://github.com/tmux-plugins/tpm
