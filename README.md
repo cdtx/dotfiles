@@ -16,8 +16,6 @@ All my linux environment
 - Clone this repository whereever wanted
 - Clone the submodules
   - `git submodule update --init --recursive`
-- Build YouCompleteMe
-  - Read the doc...
 - Drive to this projects folder
 - Create links
   - `ln -s $(pwd)/vim ~/.vim`
@@ -26,7 +24,11 @@ All my linux environment
   - `ln -s $(pwd)/zsh/zshrc ~/.zshrc`
   - `ln -s $(pwd)/tmux/.tmux ~/.tmux`
   - `ln -s $(pwd)/tmux/.tmux.conf ~/.tmux.conf`
+- Open Vim
+  - :PluginInstall (to install plugins with vundle) (wait...)
+- Build YouCompleteMe
+  - cd vim/bundle/youcompleteme 
+  - python3 install.py --clang-completer
+- Open tmux
+  - C-I (to install plugins with tpm)
 
-# Deprecated
-  - `ln -s $(pwd)/bash/bashrc ~/.bashrc`
-  - 'ln -s $(pwd)/ls/.ls_colors ~/.ls_colors
