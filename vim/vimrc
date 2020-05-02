@@ -24,6 +24,9 @@ Plugin 'vim-airline/vim-airline-themes'
 Plugin 'tpope/vim-fugitive'
 Plugin 'pangloss/vim-javascript'
 Plugin 'valloric/youcompleteme'
+Plugin 'terryma/vim-multiple-cursors'
+Plugin 'peterhoeg/vim-qml'
+Plugin 'plytophogy/vim-virtualenv'
 
 " All of your Plugins must be added before the following line
 call vundle#end()            " required
@@ -84,3 +87,4 @@ let g:ctrlp_cmd = 'CtrlPBuffer'
 
 " YouCompleteMe configuration
 let g:ycm_autoclose_preview_window_after_completion = 1
+
